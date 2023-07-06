@@ -1,0 +1,6 @@
+-- Could not auto-generate a down migration.
+-- Please write an appropriate down migration for the SQL below:
+-- SET check_function_bodies = false;
+--
+-- -- Table friend
+-- CREATE TABLE friend(id serial NOT NULL, "name" text NOT NULL, PRIMARY KEY(id));
