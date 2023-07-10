@@ -1,3 +1,14 @@
 table:
   name: Users
   schema: public
+select_permissions:
+  - role: owner
+    permission:
+      columns:
+        - created_at
+        - id
+        - updated_at
+        - username
+      filter:
+        id:
+          _eq: X-Hasura-User-Id
